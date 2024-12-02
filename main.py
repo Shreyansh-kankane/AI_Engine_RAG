@@ -17,7 +17,7 @@ import json
 from pathlib import Path
 
 # Define the path to the mapping JSON file
-mapping_path = Path(__file__).parent / "mapping.json"
+mapping_path = Path(__file__).parent / "mappings.json"
 
 with open(mapping_path, "r", encoding="utf-8") as file:
     url_namespace_mapping = json.load(file)
