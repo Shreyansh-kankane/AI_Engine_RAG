@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+pydantic
+langchain==0.3.3
+langchain-openai==0.2.2
+sentence-transformers
+google-generativeai
+python-dotenv
+pinecone==5.4.1
